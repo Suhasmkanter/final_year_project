@@ -87,7 +87,7 @@ export default function UploadArea({ detectionType }) {
         images.forEach((img) => formdata.append("images", img.file))
 
         try {
-            const response = await fetch('http://localhost:3000/predict/braintumor', {
+            const response = await fetch('https://disease-detection-app.onrender.com/predict/braintumor', {
                 method: 'POST',
                 body: formdata,
             })

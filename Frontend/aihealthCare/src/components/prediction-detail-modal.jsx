@@ -18,7 +18,7 @@ export default function ImageResultDialog({ image, open, onOpenChange }) {
 
                 {hasError ? (
                     <div className="my-8 p-6 bg-red-600/40 rounded-xl text-center text-red-100 font-semibold">
-                        <p>This is not correct Image formate to feed the model </p>
+                        {image.prediction.error}
                     </div>
                 ) : (
                     <>

@@ -1,0 +1,12 @@
+/brain_tumor_images
+/Testing 
+/Training
+/ipynb_checkpoints
+/cnn_model/*.h5
+/cnn_model/*.keras
+/newpythonenvironment
+/mimic-ecg
+/zDatasets
+/*.h5
+/*.keras
+model
